@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KCB"
+        tools:targetApi="31">
+        <activity
+            android:name=".ChairsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_chairs"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".PayActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pay"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".ChooseActivity"
+            android:exported="false"
+            android:label="@string/title_activity_choose"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:label="KCB"
+            android:theme="@style/Theme.KCB">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LottiePracActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lottie_prac"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".LottieActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lottie"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".AssignmentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_assignment"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".DiscoverActivity"
+            android:exported="false"
+            android:label="@string/title_activity_discover"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".ExploreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_explore"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".DestinationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destination"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".formactivity"
+            android:exported="false"
+            android:label="@string/title_activity_formactivity"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_intent"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".Layoutactivity"
+            android:exported="false"
+            android:label="@string/title_activity_layoutactivity"
+            android:theme="@style/Theme.KCB" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.KCB" />
+    </application>
+
+</manifest>

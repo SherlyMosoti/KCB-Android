@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KCB</string>
+    <string name="title_activity_layoutactivity">layoutactivity</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_formactivity">formactivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+    <string name="title_activity_exploration">ExplorationActivity</string>
+    <string name="title_activity_discover">DiscoverActivity</string>
+    <string name="title_activity_assignment">AssignmentActivity</string>
+    <string name="title_activity_lottie">LottieActivity</string>
+    <string name="title_activity_lottie_prac">LottiePracActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_choose">ChooseActivity</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_chairs">ChairsActivity</string>
+</resources>
